@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Network</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header Styles */
+        .header {
+            background-color: #030368;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-family: Copperplate, serif;
+        }
+
+        /* Container Styles */
+        .container {
+            max-width: 960px;
+            margin: 60px auto 20px; /* Adjusted top margin */
+            padding: 20px;
+        }
+
+        /* Alumni Card Styles */
+        .alumni-card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+        }
+
+        .alumni-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .alumni-card img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+
+        .alumni-card h2 {
+            margin: 0;
+            color: #030368;
+        }
+
+        .alumni-card p {
+            margin: 5px 0;
+            color: #555555;
+        }
+
+        .alumni-card .btn {
+            display: block;
+            width: auto;
+            margin: 10px 0 0;
+        }
+
+        /* Button Styles */
+        .btn {
+            display: inline-block;
+            background-color: #030368;
+            color: #ffffff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            font-family: sans-serif;
+            margin-right: 10px;
+        }
+
+        .btn:hover {
+            background-color: #b78f01;
+        }
+
+        /* Home Button Style */
+        .home-button {
+            background-color: #0056b3; /* Different color for distinction */
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            padding: 12px 24px; /* Adjusted padding */
+            font-size: 16px; /* Adjusted font size */
+            border-radius: 6px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .home-button:hover {
+            background-color: #003d7a;
+        }
+
+        /* Refresh Button Style */
+        .refresh-button {
+            background-color: #007bff;
+            margin-top: 10px;
+        }
+
+        .refresh-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* School Logo Style */
+        .school-logo {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 60px; /* Adjust the size as needed */
+            height: auto;
+        }
+
+        /* Responsive Design Example */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .btn {
+                padding: 15px 35px;
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Alumni Network</h1>
+    </header>
+
+    <div class="container">
+        <a href="/another-page" class="bottom-left-button btn">Go Back</a>
+        <!-- Example Alumni Cards -->
+        <div class="alumni-card">
+            <img src="static/osu.jpg" alt="Alumni Photo">
+            <div>
+                <h2>John Wilkers</h2>
+                <p><strong>Major:</strong> Computer Science</p>
+                <p><strong>University:</strong> Harvard University</p>
+                <p>John is a software engineer with a passion for AI and machine learning. He enjoys mentoring new graduates and sharing his industry experiences.</p>
+                <button class="btn">Contact</button>
+                <button class="btn refresh-button" onclick="alert('This is where you would refresh the content specific to John Doe.');">Refresh Alumni</button>
+                <img src="path-to-example-university-logo.jpg" alt="Example University Logo" class="school-logo">
+            </div>
+        </div>
+
+        <div class="alumni-card">
+            <img src="static/osu.jpg" alt="Alumni Photo">
+            <div>
+                <h2>Jane Smith</h2>
+                <p><strong>Major:</strong> Business Administration</p>
+                <p><strong>University:</strong> Vanderbilt University</p>
+                <p>Jane works in project management and specializes in strategic planning. She is interested in connecting with alumni in similar fields.</p>
+                <button class="btn">Contact</button>
+                <button class="btn refresh-button" onclick="alert('This is where you would refresh the content specific to Jane Smith.');">Refresh Alumni</button>
+                <img src="path-to-sample-university-logo.jpg" alt="Sample University Logo" class="school-logo">
+            </div>
+        </div>
+
+        <div class="alumni-card">
+            <img src="static/osu.jpg" alt="Alumni Photo">
+            <div>
+                <h2>Emily Johnson</h2>
+                <p><strong>Major:</strong> Electrical Engineering</p>
+                <p><strong>University:</strong> Ohio State University</p>
+                <p>Emily is an electrical engineer who focuses on renewable energy technologies. She is eager to connect with others in her field to share knowledge and opportunities.</p>
+                <button class="btn">Contact</button>
+                <button class="btn refresh-button" onclick="alert('This is where you would refresh the content specific to Emily Johnson.');">Refresh Alumni</button>
+                <img src="static/osu.jpg" alt="osu.jpg" class="school-logo">
+            </div>
+        </div>
+
+        <div class="alumni-card">
+            <img src="path-to-alumni-photo4.jpg" alt="Alumni Photo">
+            <div>
+                <h2>Michael Brown</h2>
+                <p><strong>Major:</strong> Marketing</p>
+                <p><strong>University:</strong> Baylor University</p>
+                <p>Michael is a marketing strategist with expertise in digital marketing and brand development. He is keen on collaborating with alumni interested in marketing innovations.</p>
+                <button class="btn">Contact</button>
+                <button class="btn refresh-button" onclick="alert('This is where you would refresh the content specific to Michael Brown.');">Refresh Alumni</button>
+                <img src="path-to-business-school-logo.jpg" alt="Business School Logo" class="school-logo">
+            </div>
+        </div>
+
+        <div class="alumni-card">
+            <img src="static/osu.jpg" alt="Alumni Photo">
+            <div>
+                <h2>James Davis</h2>
+                <p><strong>Major:</strong> Electrical Engineering</p>
+                <p><strong>University:</strong> Ohio State University</p>
+                <p>James is an engineer at a leading tech company. He mentors underrepresented students in STEM and is passionate about innovative tech solutions.</p>
+                <button class="btn">Contact</button>
+                <button class="btn refresh-button" onclick="alert('This is where you would refresh the content specific to James Davis.');">Refresh Alumni</button>
+                <img src="static/osu.jpg" alt="osu.jpg" class="school-logo">
+            </div>
+        </div>
+
+        <div class="alumni-card">
+            <img src="static/osu.jpg" alt="Alumni Photo">
+            <div>
+                <h2>Emily Rodriguez</h2>
+                <p><strong>Major:</strong> Mechanical Engineering</p>
+                <p><strong>University:</strong> Massachusetts Institute of Technology (MIT)</p>
+                <p>Emily overcame financial hardships to become a leading software engineer at a top tech company. She mentors young women in STEM and advocates for diversity in the tech industry.</p>
+                <button class="btn">Contact</button>
+                
+                <button class="btn refresh-button" onclick="alert('This is where you would refresh the content specific to Emily Rodriguez');">Refresh Alumni</button>
+                <img src="static/osu.jpg" alt="
+
+
+                    

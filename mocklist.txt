@@ -1,0 +1,60 @@
+Emily Rodriguez
+Year Graduated: 2012
+Major: Computer Science
+School: Massachusetts Institute of Technology (MIT)
+Description: Emily overcame financial hardships to become a leading software engineer at a top tech company. She mentors young women in STEM and advocates for diversity in the tech industry.
+
+Michael Nguyen
+Year Graduated: 2015
+Major: Mechanical Engineering
+School: Stanford University
+Description: Michael, a first-generation college student, now works at a major aerospace firm. He is passionate about developing sustainable energy solutions and volunteers with engineering outreach programs.
+
+Sarah Johnson
+Year Graduated: 2010
+Major: Education
+School: University of California, Berkeley
+Description: Sarah, from a low-income background, is now a principal at a Title I school. She focuses on improving educational equity and supports programs for underprivileged students.
+
+Carlos Martinez
+Year Graduated: 2014
+Major: Business Administration
+School: Harvard University
+Description: Carlos started his own successful marketing firm, helping small businesses thrive. He also provides free workshops for aspiring entrepreneurs in underserved communities.
+
+Aisha Patel
+Year Graduated: 2013
+Major: Nursing
+School: University of Pennsylvania
+Description: Aisha, the first in her family to graduate college, is now a nurse practitioner. She advocates for healthcare access in low-income neighborhoods and volunteers at free clinics.
+
+
+David Kim
+Year Graduated: 2016
+Major: Environmental Science
+School: University of Michigan
+Description: David turned his passion for the environment into a career as a conservation biologist. He works on preserving endangered species and educates communities on environmental stewardship.
+
+Maria Lopez
+Year Graduated: 2011
+Major: Sociology
+School: University of California, Los Angeles (UCLA)
+Description: Maria, a former first-gen student, now works as a social worker. She focuses on helping low-income families access resources and support systems, making a significant impact in her community
+
+James Thompson
+Year Graduated: 2018
+Major: Electrical Engineering
+School: Georgia Institute of Technology
+Description: James, from a modest background, is now an engineer at a leading tech company. He mentors underrepresented students in STEM and is passionate about innovative tech solutions.
+
+Sophia Hernandez
+Year Graduated: 2017
+Major: Public Health
+School: Johns Hopkins University
+Description: Sophia overcame economic challenges to become a public health advocate. She works on health policy initiatives aimed at improving healthcare access for low-income populations.
+
+Ethan Brown
+Year Graduated: 2012
+Major: Political Science
+School: University of Chicago
+Description: Ethan, a first-generation college graduate, now serves as a city council member. He is dedicated to representing and improving his low-income community through effective policy making.

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+    <title>{% block title %}AlumniLink{% endblock %}</title>
+</head>
+<body>
+    <header class="header">
+        <img src="{{ url_for('static', filename='download.png') }}" class="center fade-in" alt="Scholar Image illustrating academic success" style="width:25%">
+        <h1 class="fade-in" style="margin-bottom: 10px;">AlumniLink</h1>
+    </header>
+    <main class="container">
+        <h3 class="fade-in" style="margin-top: 0;">Connect. Innovate. Empower.</h3>
+        <p>AlumniLink is dedicated to connecting first-generation alumni to inspire and support current students. Join us in fostering a community that thrives on shared experiences and mutual growth.</p>
+        <div class="horizontalgap" style="width:50px"></div>
+        {% block content %}
+        <!-- Default content can be added here if needed -->
+        {% endblock %}
+
+        <a href="/another-page" class="btn fade-in">Get Started</a>
+    </main>
+</body>
+</html>
